@@ -19,7 +19,7 @@ function getCryptoInfo() {
 
 function mostrarInfo(cryptocurrency) {
   console.log(cryptocurrency);
-  document.querySelectorAll('#contenedor')[0].innerHTML = "<div>Name: " + cryptocurrency.value;
+  document.querySelectorAll('#contenedor')[0].innerHTML = "<div>" + cryptocurrency.value;
 }
 
 // VARIABLES
